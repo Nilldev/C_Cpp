@@ -1,0 +1,26 @@
+#include<stdio.h>
+#include<stdbool.h>
+ 
+ bool existe(struct Lista* li, int item){
+    assert(li!=NULL);
+    struct No* aux = li->inicio;
+    while(aux!=NULL){
+        if(aux->info == item){
+            return true;
+        }
+    }aux = aux->proxmo;
+
+ }return false;
+ 
+ int posição menor (struct Lista* li){
+    assert(li !-NULL);
+    struct No* aux =li ->inicio;
+    int pos_menor= 0,menor = aux->info;
+    for  (int i=0;i<li->tamanho; i++){
+        if (aux->info<menor){
+            pos_menor = 1; 
+            menor = aux-> info;
+
+        }aux=aux->proximo;
+    }return pos_menor;
+ }
