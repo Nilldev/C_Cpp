@@ -1,5 +1,1 @@
-### Dio-desafio-github-primeiro-repositorio
-Repositório criado para o Desafio de projeto sobre Git/Github
-
-## Links Úteis
-[Sintaxe_Basica_Markdown](https://www.markdownguide.org/)
+Repositório destinado ao treino dos exercícios da disciplina de Algoritmos e Programação Estruturada da Faculdade de Engenharia de Software.
